@@ -1,0 +1,28 @@
+body{
+    background-color: #9E2429;
+}
+
+.navbar{
+    margin-bottom: 50px;
+    background-color: #8C2529;
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+.card{
+    background-color:  #9E2429;
+    color: white;
+    width: 18rem;
+}
+.card li{background-color:  #9E2429;
+color:white}
+
+@media (max-width:991px){
+    .card{
+       max-width: 12rem;
+    }
+}
+
