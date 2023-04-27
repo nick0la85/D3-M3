@@ -1,28 +1,43 @@
-body{
-    background-color: #9E2429;
+body {
+    background: linear-gradient(90deg, rgba(6, 67, 97, 1) 0%, rgba(114, 172, 200, 1) 43%);
+    color: white;
 }
 
-.navbar{
+.navbar {
     margin-bottom: 50px;
-    background-color: #8C2529;
+    background-color: #064361;
+
+}
+
+.nav-link {
     color: white;
 }
 
-.nav-link{
-    color: white;
-}
+.card {
+    background: linear-gradient(90deg, rgba(6, 67, 97, 1) 0%, rgba(23, 119, 167, 1) 43%);
 
-.card{
-    background-color:  #9E2429;
-    color: white;
     width: 18rem;
-}
-.card li{background-color:  #9E2429;
-color:white}
+    border: 0px;
+    text-align: center;
 
-@media (max-width:991px){
-    .card{
-       max-width: 12rem;
-    }
 }
 
+.list-group-item {
+    border: 0px;
+    color: white;
+}
+
+.card li {
+    background: linear-gradient(90deg, rgba(6, 67, 97, 1) 0%, rgba(23, 119, 167, 1) 43%);
+
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+footer {
+    height: 80px;
+    background-color: #064361;
+}
