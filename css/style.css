@@ -47,12 +47,15 @@ footer span{
 }
 
 @media (max-width:991px){
-    .card{max-width: 10rem;}
+    .card{max-width: 11rem;}
 }
 @media (max-width:768px){
-    .card{max-width: 10rem;}
+    .card{max-width: 11rem;}
 }
 
 @media (max-width:567px){
     .card{max-width: 10rem;}
+    .card h5{
+        font-size: small;
+    }
 }
