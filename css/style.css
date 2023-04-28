@@ -41,3 +41,18 @@ footer {
     height: 80px;
     background-color: #064361;
 }
+
+footer span{
+    margin-left: 3px;
+}
+
+@media (max-width:991px){
+    .card{max-width: 10rem;}
+}
+@media (max-width:768px){
+    .card{max-width: 10rem;}
+}
+
+@media (max-width:567px){
+    .card{max-width: 10rem;}
+}
